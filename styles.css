@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+
+}
+
+header {
+    background-color: #9B51E0;
+    height: 300px;
+
+}
+
+h1 {
+    background-color: #8E008E;
+    color: white;
+}
+
+h2,
+h3,
+.risco {
+    color: #9B51E0;
+}
+
+h1,
+h2,
+h3,
+.sobre {
+
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1,
+.section-2,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
